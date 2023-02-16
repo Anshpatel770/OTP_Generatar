@@ -1,0 +1,45 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background-color: antiquewhite;
+     background-image: url(/img/bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 15%;
+}
+.box{
+     border: 3px solid black;
+     width: 27%;
+     height: 208px;
+     box-shadow: 3px 3px 3px grey;
+
+}
+#OTP-Code{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10%;
+     font-size: 40px;
+     color: black;
+}
+.button{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10%
+    
+}
+button{
+     font-size: 22px;
+     border-radius: 6px;
+     cursor: pointer;
+     padding: 8px 26px;
+}
